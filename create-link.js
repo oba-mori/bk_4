@@ -1,0 +1,1 @@
+var linkFileImage = './sample_img/';

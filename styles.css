@@ -1,0 +1,79 @@
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1rem;
+}
+
+
+
+/* カテゴリボタンのスタイル */
+.button-category-class {
+  width: 5rem;
+  height: 5rem;
+  /* padding: 1rem 1rem; */
+  font-size: 1rem;
+  
+  margin: 0.5rem;
+  cursor: pointer; /* カーソルをポインターに */
+
+  /* background-image: url('./sample_img/blue.png'); */
+  background-size: cover; /* 画像がボタン全体に広がるように */
+  background-position: center; /* 画像の中心をボタンの中心に */
+
+  border: 3px solid rgb(66, 66, 66); /* 必要に応じて枠線を設定 */
+  box-shadow: none;       /* ボックスシャドウを削除 */
+  outline: none;          /* アウトラインを削除 */
+
+  /*border-radius: 50%;       /* ボタンを丸くする */
+  background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
+}
+
+.active-category{
+  border-color:rgb(180, 141, 141);
+
+}
+
+
+
+/* ボタンのスタイル */
+.data-button-class {
+  width: 5rem;
+  height: 5rem;
+  /* padding: 1rem 1rem; */
+  font-size: 1rem;
+  
+  margin: 0.5rem;
+  cursor: pointer; /* カーソルをポインターに */
+
+  /* background-image: url('./sample_img/blue.png'); */
+  background-size: cover; /* 画像がボタン全体に広がるように */
+  background-position: center; /* 画像の中心をボタンの中心に */
+
+  border: 3px solid rgb(66, 66, 66); /* 必要に応じて枠線を設定 */
+  box-shadow: none;       /* ボックスシャドウを削除 */
+  outline: none;          /* アウトラインを削除 */
+
+  border-radius: 50%;       /* ボタンを丸くする */
+  background-color: rgb(179, 255, 249);    /* ボタンの背景色 */
+}
+
+
+/* 押された状態のスタイル */
+.active {
+  /* background-color: #a3a3a3; */
+  /* color: white; */
+
+  border-color:rgb(192, 192, 192);
+}
+
+
+/* imageレイアウト */
+#image-id
+{
+  width:20rem;
+  height:auto;
+}
+
+
+
