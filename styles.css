@@ -7,6 +7,15 @@ body{
 
 
 
+.div-class{
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center;     /* 縦方向の中央揃え */
+  flex-direction: column; 
+}
+
+
+
 /* カテゴリボタンのスタイル */
 .button-category-class {
   width: 5rem;
@@ -30,7 +39,7 @@ body{
 }
 
 .active-category{
-  border-color:rgb(180, 141, 141);
+  border-color:rgb(180, 192, 191);
 
 }
 

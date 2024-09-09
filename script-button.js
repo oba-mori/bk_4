@@ -44,7 +44,7 @@ function handleCategoryClick(category) {
   // フィルタリングされたデータに基づいてボタンを生成
   filteredData.forEach((item, index) => {
     const dataButton = document.createElement('button');
-    dataButton.textContent = item.name;
+    // dataButton.textContent = item.name;
     dataButton.classList.add('data-button-class');
     dataButton.id = `data-button-${item.id}`;
 
