@@ -68,7 +68,7 @@ body{
   outline: none;          /* アウトラインを削除 */
 
   border-radius: 50%;       /* ボタンを丸くする */
-  background-color: rgb(179, 255, 249);    /* ボタンの背景色 */
+  background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
   box-sizing: border-box; /* ボーダーを含むサイズ計算 */
 }
 
@@ -86,7 +86,7 @@ body{
 #image-id
 {
   /* width:20rem; */
-  width:2rem;
+  width:20rem;
   height:auto;
 }
 
