@@ -30,17 +30,19 @@ body{
   background-size: cover; /* 画像がボタン全体に広がるように */
   background-position: center; /* 画像の中心をボタンの中心に */
 
-  border: 3px solid rgb(66, 66, 66); /* 必要に応じて枠線を設定 */
+  border: 3px solid rgba(66, 66, 66, 0); 
+  /* border: none;  */
   box-shadow: none;       /* ボックスシャドウを削除 */
   outline: none;          /* アウトラインを削除 */
 
   /*border-radius: 50%;       /* ボタンを丸くする */
   background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
+  box-sizing: border-box; /* ボーダーを含むサイズ計算 */
 }
 
 .active-category{
-  border-color:rgb(180, 192, 191);
-
+  border: 3px solid rgb(0, 0, 0);
+  /* border-color:rgb(180, 192, 191); */
 }
 
 
@@ -59,12 +61,15 @@ body{
   background-size: cover; /* 画像がボタン全体に広がるように */
   background-position: center; /* 画像の中心をボタンの中心に */
 
-  border: 3px solid rgb(66, 66, 66); /* 必要に応じて枠線を設定 */
+  border: 3px solid rgba(66, 66, 66, 0);
+  /* border: none;  */
+  /*border: 3px solid rgb(66, 66, 66);  */
   box-shadow: none;       /* ボックスシャドウを削除 */
   outline: none;          /* アウトラインを削除 */
 
   border-radius: 50%;       /* ボタンを丸くする */
   background-color: rgb(179, 255, 249);    /* ボタンの背景色 */
+  box-sizing: border-box; /* ボーダーを含むサイズ計算 */
 }
 
 
@@ -72,15 +77,16 @@ body{
 .active {
   /* background-color: #a3a3a3; */
   /* color: white; */
-
-  border-color:rgb(192, 192, 192);
+  border: 3px solid rgb(0, 0, 0);
+  /* border-color:rgb(192, 192, 192); */
 }
 
 
 /* imageレイアウト */
 #image-id
 {
-  width:20rem;
+  /* width:20rem; */
+  width:2rem;
   height:auto;
 }
 
