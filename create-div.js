@@ -3,19 +3,18 @@
 
 // データ入力
 var data = [
-  { id: 0, category: 'ttf',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
-  { id: 1, category: 'ttf',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
-  { id: 2, category: 'ttf',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
-  { id: 3, category: 'ttf',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 4, category: 'ttf',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 5, category: 'ttf',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 6, category: 'arsk',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 7, category: 'arsk',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 8, category: 'arsk',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 9, category: 'arsk',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 10, category: 'arsk',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 11, category: 'arsk',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 12, category: 'arsk',name: 'onder', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 0, category: 'Titanfall',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
+  { id: 1, category: 'Titanfall',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
+  { id: 2, category: 'Titanfall',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
+  { id: 3, category: 'Titanfall',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 4, category: 'Titanfall',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 5, category: 'Titanfall',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 6, category: 'Cyberpunk2077',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 7, category: 'Cyberpunk2077',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 8, category: 'Cyberpunk2077',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 9, category: 'Cyberpunk2077',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 10, category: 'Cyberpunk2077',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 11, category: 'Cyberpunk2077',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' },
 ];
 
 // Map の作成
