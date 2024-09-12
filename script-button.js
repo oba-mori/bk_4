@@ -5,6 +5,8 @@
 var buttons_category = document.querySelectorAll('.button-category-class');
 var dataButtonsContainer = document.getElementById('button-all-id');
 // var imageDiv = document.getElementById('image-div'); // 画像を表示するための要素を取得
+// 現在の選択状態を保持する変数
+var currentActiveButton = null;
 
 // 初期状態で1つ目のボタンに "active" クラスを追加して押された状態にする
 window.onload = function() {
@@ -17,6 +19,11 @@ window.onload = function() {
 // ボタンがクリックされた時の処理
 buttons_category.forEach(function(button) {
   button.addEventListener('click', function() {
+    // クリックされたボタンがすでにアクティブな場合は何もしない
+    if (this === currentActiveButton) {
+      return;
+    }
+
     // Button制御
     buttons_category.forEach(function(btn) {
       btn.classList.remove('active-category');
@@ -24,6 +31,9 @@ buttons_category.forEach(function(button) {
 
     // クリックされたボタンに "active-category" クラスを追加
     this.classList.add('active-category');
+
+    // 現在アクティブなボタンを更新
+    currentActiveButton = this;
 
     // ボタンのテキストを取得
     var buttonText = this.textContent;

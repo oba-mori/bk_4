@@ -15,6 +15,7 @@ body{
   justify-content: center; /* 横方向の中央揃え */
   align-items: center;     /* 縦方向の中央揃え */
   flex-direction: column; 
+  background-color: rgb(226, 226, 226);
 }
 
 
@@ -46,28 +47,27 @@ body{
 
   /* 文字 */
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影を追加 */
-
+  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影を追加 */
 }
 
 
 
 .active-category{
-  border: 3px solid rgb(0, 0, 0);
-  border-color:rgb(133, 133, 133); 
+  border: 3px solid rgb(255, 255, 255);
+  border-color:rgb(255, 255, 255); 
 }
 
 
 
 /*  */
 #category-button-0{
-  /* background-color: rgb(255, 255, 255);  */
-  background: linear-gradient(135deg, #ffa216, #990000, #ffa216, #990000, #ffa216); /* 赤から暗い赤、黒、白へのグラデーション*/
+  background-color: rgb(255, 115, 0); 
+  /*background: linear-gradient(135deg, #ffa216, #990000, #ffa216, #990000, #ffa216); /* 赤から暗い赤、黒、白へのグラデーション*/
 }
 #category-button-1{
-  /*background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
+  background-color: rgb(0, 0, 0);    /* ボタンの背景色
   /*background: linear-gradient(135deg, #ff0000, #000000, #ffffff); /* 赤から黒、白へのグラデーション */
-  background: linear-gradient(135deg, #ff0000, #bb0000, #000000, #acacac, #ffffff); /* 赤から暗い赤、黒、白へのグラデーション*/
+  /*background: linear-gradient(135deg, #ff0000, #bb0000, #000000, #acacac, #ffffff); /* 赤から暗い赤、黒、白へのグラデーション*/
 }
 
 
