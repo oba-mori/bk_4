@@ -1,20 +1,30 @@
 // 要素作成
 
 
+/*
+
+Titanfall
+Cyberpunk2077
+
+
+*/ 
+
+
+
 // データ入力
 var data = [
-  { id: 0, category: 'Titanfall',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
-  { id: 1, category: 'Titanfall',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
-  { id: 2, category: 'Titanfall',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
-  { id: 3, category: 'Titanfall',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 4, category: 'Titanfall',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 5, category: 'Titanfall',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 6, category: 'Cyberpunk2077',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 7, category: 'Cyberpunk2077',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 8, category: 'Cyberpunk2077',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 9, category: 'Cyberpunk2077',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 10, category: 'Cyberpunk2077',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 11, category: 'Cyberpunk2077',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 0, category: 'abcdEFGH',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
+  { id: 1, category: 'abcdEFGH',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
+  { id: 2, category: 'abcdEFGH',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
+  { id: 3, category: 'abcdEFGH',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 4, category: 'abcdEFGH',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 5, category: 'abcdEFGH',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 6, category: '1234567',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 7, category: '1234567',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 8, category: '1234567',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 9, category: '1234567',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 10, category: '1234567',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 11, category: '1234567',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' }
 ];
 
 // Map の作成
@@ -50,34 +60,40 @@ var categoryCount = categories.length;
 
 // 各カテゴリにボタンを作成
 categories.forEach((category, index) => {
-    // 新しいButton要素を作成
-    var buttonCategory = document.createElement("button");
-  
-    // divにテキストを追加
-    // buttonCategory.textContent = i;
-    // buttonCategory.textContent =  myMap.get(i).category;
-    buttonCategory.textContent =  category;    
-    // console.log(category);
+  // 新しいButton要素を作成
+  var buttonCategory = document.createElement("button");
 
-    // divにクラスを追加
-    buttonCategory.className = "button-category-class";
-  
-    // 新しいdiv要素にidを設定
-    buttonCategory.id = `category-button-${index}`; // ここでidを設定
-    // console.log(buttonCategory.id);
-      
-    // 既存のdiv要素を取得（例: idで取得）
-    var buttonCategoryAllDiv = document.getElementById("button-category-all-id");
-  
-    // 既存のdiv要素に新しいdivを追加
-    buttonCategoryAllDiv.appendChild(buttonCategory);
-  
-    //CSS
-    //Buttonの背景画像
-    // button.style.backgroundImage = 'url(./sample_img/' + icons[i] + ')';
-    // button.style.backgroundImage = 'url(./sample_img/' + myMap.get(i).icon + ')';
-    // buttonCategory.style.backgroundImage = 'url(' + linkFileImage + myMap.get(i).icon + ')';
+  // divにテキストを追加
+  // buttonCategory.textContent = i;
+  // buttonCategory.textContent =  myMap.get(i).category;
+  buttonCategory.textContent =  category;    
+  // console.log(category);
+
+  // divにクラスを追加
+  buttonCategory.className = "button-category-class";
+
+  // 新しいdiv要素にidを設定
+  buttonCategory.id = `category-button-${index}`; // ここでidを設定
+  // console.log(buttonCategory.id);
+    
+  // 既存のdiv要素を取得（例: idで取得）
+  var buttonCategoryAllDiv = document.getElementById("button-category-all-id");
+
+  // 既存のdiv要素に新しいdivを追加
+  buttonCategoryAllDiv.appendChild(buttonCategory);
+
+  //CSS
+  //Buttonの背景画像
+  // button.style.backgroundImage = 'url(./sample_img/' + icons[i] + ')';
+  // button.style.backgroundImage = 'url(./sample_img/' + myMap.get(i).icon + ')';
+  // buttonCategory.style.backgroundImage = 'url(' + linkFileImage + myMap.get(i).icon + ')';
 });
+
+
+
+
+
+
 
 
 //---------------------------------------------------------------------

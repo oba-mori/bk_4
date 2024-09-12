@@ -1,8 +1,11 @@
 html{
   font-size: 10px;
+
 }
 body{
   font-size: 1rem;
+  /* font-family: Roboto,sans-serif!important;  */
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -18,7 +21,8 @@ body{
 
 /* カテゴリボタンのスタイル */
 .button-category-class {
-  width: 15rem;
+  /* .test{ */
+    width: 18rem;
   height: 5rem;
   /* padding: 1rem 1rem; */
   font-size: 2rem;
@@ -30,20 +34,42 @@ body{
   background-size: cover; /* 画像がボタン全体に広がるように */
   background-position: center; /* 画像の中心をボタンの中心に */
 
-  border: 3px solid rgba(66, 66, 66, 0); 
-  /* border: none;  */
+  /* border: 3px solid rgba(255, 255, 255, 0); */
+  border: none;
+
   box-shadow: none;       /* ボックスシャドウを削除 */
   outline: none;          /* アウトラインを削除 */
 
   /*border-radius: 50%;       /* ボタンを丸くする */
-  background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
+  background-color: rgb(187, 187, 187);    /* ボタンの背景色 */
   box-sizing: border-box; /* ボーダーを含むサイズ計算 */
+
+  /* 文字 */
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影を追加 */
+
 }
+
+
 
 .active-category{
   border: 3px solid rgb(0, 0, 0);
-  /* border-color:rgb(180, 192, 191); */
+  border-color:rgb(133, 133, 133); 
 }
+
+
+
+/*  */
+#category-button-0{
+  /* background-color: rgb(255, 255, 255);  */
+  background: linear-gradient(135deg, #ffa216, #990000, #ffa216, #990000, #ffa216); /* 赤から暗い赤、黒、白へのグラデーション*/
+}
+#category-button-1{
+  /*background-color: rgb(255, 255, 255);    /* ボタンの背景色 */
+  /*background: linear-gradient(135deg, #ff0000, #000000, #ffffff); /* 赤から黒、白へのグラデーション */
+  background: linear-gradient(135deg, #ff0000, #bb0000, #000000, #acacac, #ffffff); /* 赤から暗い赤、黒、白へのグラデーション*/
+}
+
 
 
 
