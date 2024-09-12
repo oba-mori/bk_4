@@ -13,18 +13,18 @@ Cyberpunk2077
 
 // データ入力
 var data = [
-  { id: 0, category: 'abcdEFGH',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
-  { id: 1, category: 'abcdEFGH',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
-  { id: 2, category: 'abcdEFGH',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
-  { id: 3, category: 'abcdEFGH',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 4, category: 'abcdEFGH',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 5, category: 'abcdEFGH',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 6, category: '1234567',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 7, category: '1234567',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 8, category: '1234567',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 9, category: '1234567',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 10, category: '1234567',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
-  { id: 11, category: '1234567',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' }
+  { id: 0, category: 'Titanfall',name: 'kid', icon: 'icon-ki.png', img: 'img-kid.png' },
+  { id: 1, category: 'Titanfall',name: 'olib', icon: 'icon-1.png', img: 'img-1.png' },
+  { id: 2, category: 'Titanfall',name: 'ki-ul', icon: 'icon-2.png', img: 'img-2.png' },
+  { id: 3, category: 'Titanfall',name: '9sist', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 4, category: 'Titanfall',name: 's;eiglas', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 5, category: 'Titanfall',name: 'jest', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 6, category: 'Cyberpunk2077',name: 'v', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 7, category: 'Cyberpunk2077',name: 'od', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 8, category: 'Cyberpunk2077',name: 'tkml', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 9, category: 'Cyberpunk2077',name: 'sdi', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 10, category: 'Cyberpunk2077',name: '3row', icon: 'icon-3.png', img: 'img-3.png' },
+  { id: 11, category: 'Cyberpunk2077',name: 'nkg', icon: 'icon-3.png', img: 'img-3.png' }
 ];
 
 // Map の作成
